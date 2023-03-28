@@ -7693,3 +7693,19 @@ display:table;
    text-align: center;
     }
    }
+   @media screen and (max-width: 480px) {
+  #backs{
+    font-size: 80px; /* Adjust the width to fill the screen */
+    height: auto; /* Allow the height to adjust proportionally */
+    /* Add any other necessary modifications to the card's styling */
+  }
+  .backs{
+   display: grid;
+   height: 100vh;
+    }
+    
+    .center {
+   margin: auto;
+   text-align: center;
+    }
+   }
