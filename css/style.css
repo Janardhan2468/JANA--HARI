@@ -3320,6 +3320,7 @@ border:solid 1px #ddd;
 	line-height: 70px;
 	font-weight:500;
 	color: #333;
+	
 }
 .pricing-s1.light .top .price .month {
 	color: #555;
@@ -4098,14 +4099,13 @@ border:solid 1px #ddd;
 		position:absolute;
 		z-index:100;
 		top:100%;
-		background:#11111170;
+		background:#111111e3;
 		color:#ccc;
 	}
 	
 	.de-team-list p{
 		clear:both;
-		line-height:21px;
-		
+		line-height: 21px;
 	}
 	
 	.de-team-list .team-desc h3{
@@ -7669,3 +7669,11 @@ display:table;
 		display:none;
 	}
 	}
+	.overlay-images {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  }
