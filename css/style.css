@@ -7677,3 +7677,19 @@ display:table;
   left: 0;
   opacity: 1;
   }
+  @media screen and (max-width: 480px) {
+  #teams{
+    width: 85%; /* Adjust the width to fill the screen */
+    height: auto; /* Allow the height to adjust proportionally */
+    /* Add any other necessary modifications to the card's styling */
+  }
+  .teams{
+   display: grid;
+   height: 100vh;
+    }
+    
+    .center {
+   margin: auto;
+   text-align: center;
+    }
+   }
