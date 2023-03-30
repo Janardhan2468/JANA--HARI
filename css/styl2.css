@@ -2,7 +2,7 @@
 .wrapper {
 	display: inline-block;
 	justify-content: center;
-	height: 95vh;
+	height: 25vh;
 }
 
 .slider {
@@ -28,7 +28,7 @@
     width: 80%;
 	height: 200px;
 	border-radius: 5px;
-	border: 1px solid #bbbbbb;
+	border-radius: 1px solid #bbbbbb;
 }
 
 @-webkit-keyframes scroll {
@@ -48,3 +48,4 @@
 		transform: translateX(calc(-350px * 10));
 	}
 }
+
