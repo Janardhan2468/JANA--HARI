@@ -48,4 +48,66 @@
 		transform: translateX(calc(-350px * 10));
 	}
 }
+ @media only screen and (min-width: 480px) and (max-width: 760px){
+					.a{
+					display: flex;
+					width: 100%;
+					text-align: left;
+					padding: 40px;
+					margin-left: 4vh;
+					
+					}
+				}
+				@media only screen and (max-width: 480px){
+					.a{
+					display: flexbox;
+					width: 100%;
+					align-content: left;
+					text-align: left;
+				
+
+					}
+				}
+									
+.countdown-row{
+
+    align-items: center;
+    padding-left: 0px;
+    align-content: center;
+
+
+  }
+  .countdown-row {
+  position: relative; /* or relative */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.countdown-row {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.countdown-section {
+	font-size: 12px;
+	}
+	.countdown-amount {
+		font-size: 36px;
+	}
+@media screen and (max-width: 398px) {
+  .countdown-section {
+    font-size: 2px;
+    align-items: center;
+  }
+  }
+	.countdown-amount {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 786px) {
+  .a {
+  text-align: left;
+  margin-left: auto;
+  }
+}
 
